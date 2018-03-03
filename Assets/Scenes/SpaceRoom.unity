@@ -20,11 +20,11 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.039215688, g: 0.08235294, b: 0.16862746, a: 1}
+  m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 0}
   m_AmbientEquatorColor: {r: 0.007843138, g: 0.14901961, b: 0.27450982, a: 1}
-  m_AmbientGroundColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_AmbientIntensity: 1
-  m_AmbientMode: 1
+  m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 21e506ebb3829514da3f400e382eba35, type: 2}
   m_HaloStrength: 0.5
@@ -225,7 +225,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4852161098662608, guid: b1bb2fa3ada00c243b7497b96bbc77a3, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.18223552
       objectReference: {fileID: 0}
     - target: {fileID: 4852161098662608, guid: b1bb2fa3ada00c243b7497b96bbc77a3, type: 2}
       propertyPath: m_LocalRotation.z
@@ -233,7 +233,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4852161098662608, guid: b1bb2fa3ada00c243b7497b96bbc77a3, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9832549
       objectReference: {fileID: 0}
     - target: {fileID: 4852161098662608, guid: b1bb2fa3ada00c243b7497b96bbc77a3, type: 2}
       propertyPath: m_RootOrder
@@ -252,12 +252,12 @@ Prefab:
     - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
         type: 2}
       propertyPath: atmosphereThickness.inputValue
-      value: 0.005
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
         type: 2}
       propertyPath: sunBrightness.inputValue
-      value: 22.1
+      value: 28.7
       objectReference: {fileID: 0}
     - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
         type: 2}
@@ -348,7 +348,602 @@ Prefab:
     - target: {fileID: 108272791496815524, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
         type: 2}
       propertyPath: m_Intensity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: wavelengthR.evaluateTime
+      value: 0.055455953
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: wavelengthG.evaluateTime
+      value: 0.055455953
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: wavelengthB.evaluateTime
+      value: 0.055455953
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: atmosphereThickness.evaluateTime
+      value: 0.055455953
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: dayAtmosphereTint.evaluateTime
+      value: 0.110911906
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: nightColorType
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: nightAtmosphereTint.gradient.key0.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: nightAtmosphereTint.gradient.key0.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: nightAtmosphereTint.gradient.key0.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: nightAtmosphereTint.gradient.key1.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: nightAtmosphereTint.gradient.key1.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: nightAtmosphereTint.gradient.key1.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: nightAtmosphereTint.gradient.ctime1
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: nightAtmosphereTint.gradient.m_NumColorKeys
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: nightAtmosphereTint.evaluateTime
+      value: 1.8890882
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: sunBrightness.evaluateTime
+      value: 0.055455953
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: mie.evaluateTime
+      value: 0.055455953
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: sunMieColor.evaluateTime
+      value: 0.110911906
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: sunMieAnisotropy.evaluateTime
+      value: 0.110911906
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: sunMieScattering.evaluateTime
+      value: 0.110911906
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: moonMieColor.evaluateTime
+      value: 1.8890882
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: moonMieAnisotropy.evaluateTime
+      value: 1.8890882
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: moonMieScattering.evaluateTime
+      value: 1.8890882
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: moonMieMultiplier.evaluateTime
+      value: 0.055455953
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: sunDiscSize.evaluateTime
+      value: 0.110911906
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: sunDiscColor.evaluateTime
+      value: 0.110911906
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: moonSize.evaluateTime
+      value: 1.8890882
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: moonColor.evaluateTime
+      value: 1.8890882
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: moonIntensity.evaluateTime
+      value: 1.8890882
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: moonMultiplier.evaluateTime
+      value: 0.055455953
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: starsColor.evaluateTime
+      value: 0.055455953
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: starsIntensity.valueType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: starsIntensity.evaluateTime
+      value: 0.055455953
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: starsScintillation.evaluateTime
+      value: 0.055455953
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: nebulaColor.evaluateTime
+      value: 0.055455953
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: nebulaIntensity.evaluateTime
+      value: 0.055455953
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: exposure.evaluateTime
+      value: 0.055455953
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: sunLightColor.gradient.key0.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: sunLightColor.gradient.key0.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: sunLightColor.gradient.key0.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: sunLightColor.gradient.key0.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: sunLightColor.gradient.key1.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: sunLightColor.gradient.key1.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: sunLightColor.gradient.key1.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: sunLightColor.gradient.key1.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: sunLightColor.gradient.key2.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: sunLightColor.gradient.key2.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: sunLightColor.gradient.key2.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: sunLightColor.gradient.ctime1
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: sunLightColor.gradient.ctime2
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: sunLightColor.gradient.ctime3
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: sunLightColor.gradient.m_NumColorKeys
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: sunLightColor.evaluateTime
+      value: 0.055455953
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: sunLightIntensity.valueType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: sunLightIntensity.evaluateTime
+      value: 0.055455953
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: moonLightColor.evaluateTime
+      value: 1.8890882
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: moonLightIntensity.valueType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: moonLightIntensity.evaluateTime
+      value: 1.8890882
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: moonLightMultiplier.valueType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: moonLightMultiplier.evaluateTime
+      value: 0.055455953
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientMode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientSkyColor.gradient.key0.r
+      value: 0.03137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientSkyColor.gradient.key0.g
+      value: 0.06666667
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientSkyColor.gradient.key0.b
+      value: 0.13333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientSkyColor.gradient.key0.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientSkyColor.gradient.key1.r
+      value: 0.03137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientSkyColor.gradient.key1.g
+      value: 0.06666667
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientSkyColor.gradient.key1.b
+      value: 0.13333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientSkyColor.gradient.key1.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientSkyColor.gradient.key2.r
+      value: 0.023529414
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientSkyColor.gradient.key2.g
+      value: 0.054901965
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientSkyColor.gradient.key2.b
+      value: 0.10588236
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientSkyColor.gradient.key3.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientSkyColor.gradient.key3.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientSkyColor.gradient.key3.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientSkyColor.gradient.key4.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientSkyColor.gradient.key4.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientSkyColor.gradient.key4.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientSkyColor.evaluateTime
+      value: 0.055455953
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientEquatorColor.gradient.key0.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientEquatorColor.gradient.key0.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientEquatorColor.gradient.key0.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientEquatorColor.gradient.key0.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientEquatorColor.gradient.key1.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientEquatorColor.gradient.key1.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientEquatorColor.gradient.key1.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientEquatorColor.gradient.key1.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientEquatorColor.gradient.key2.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientEquatorColor.gradient.key2.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientEquatorColor.gradient.key2.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientEquatorColor.gradient.key3.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientEquatorColor.gradient.key3.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientEquatorColor.gradient.key3.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientEquatorColor.gradient.key4.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientEquatorColor.gradient.key4.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientEquatorColor.gradient.key4.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientEquatorColor.evaluateTime
+      value: 0.41236213
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientGroundColor.gradient.key0.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientGroundColor.gradient.key0.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientGroundColor.gradient.key0.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientGroundColor.gradient.key0.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientGroundColor.gradient.key1.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientGroundColor.gradient.key1.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientGroundColor.gradient.key1.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientGroundColor.gradient.key1.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientGroundColor.gradient.key2.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientGroundColor.gradient.key2.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientGroundColor.gradient.key2.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientGroundColor.gradient.ctime1
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientGroundColor.gradient.ctime2
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientGroundColor.gradient.ctime3
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientGroundColor.gradient.m_NumColorKeys
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientGroundColor.evaluateTime
+      value: 0.055455953
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: ambientIntensity.evaluateTime
+      value: 0.40804088
+      objectReference: {fileID: 0}
+    - target: {fileID: 108272791496815524, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114272981305417062, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: dayInSeconds
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 114272981305417062, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: orientation
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: starsScintillation.inputValue
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114066142701604874, guid: b1bb2fa3ada00c243b7497b96bbc77a3,
+        type: 2}
+      propertyPath: starsScintillationSpeed.inputValue
+      value: 30.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1bb2fa3ada00c243b7497b96bbc77a3, type: 2}
@@ -508,6 +1103,11 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 23630060616983976, guid: 9e06a3544790ff843a832cc5202d4776,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3d938759d8b7a414988ec3261fb5265d, type: 2}
     m_RemovedComponents:
     - {fileID: 65859742295685776, guid: 9e06a3544790ff843a832cc5202d4776, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 9e06a3544790ff843a832cc5202d4776, type: 2}
@@ -656,6 +1256,48 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &1199250821
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: cc2ff5ae5c02b2c47889d893ca924e2b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cc2ff5ae5c02b2c47889d893ca924e2b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.409
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cc2ff5ae5c02b2c47889d893ca924e2b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cc2ff5ae5c02b2c47889d893ca924e2b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cc2ff5ae5c02b2c47889d893ca924e2b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cc2ff5ae5c02b2c47889d893ca924e2b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cc2ff5ae5c02b2c47889d893ca924e2b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: cc2ff5ae5c02b2c47889d893ca924e2b, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: cc2ff5ae5c02b2c47889d893ca924e2b, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1001 &1267129418
 Prefab:
   m_ObjectHideFlags: 0
@@ -707,10 +1349,23 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: -0.5
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 2300026, guid: 62b502587771d324486c7eb0f718fd4e, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: cbef8f77560ad3c4aa5775e8dcb624f8, type: 2}
+<<<<<<< HEAD
+=======
+    - target: {fileID: 2300024, guid: 62b502587771d324486c7eb0f718fd4e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cbef8f77560ad3c4aa5775e8dcb624f8, type: 2}
+    - target: {fileID: 2300018, guid: 62b502587771d324486c7eb0f718fd4e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cbef8f77560ad3c4aa5775e8dcb624f8, type: 2}
+=======
+>>>>>>> 9866a80cbd328aa047ce9907f02d475826034cef
     - target: {fileID: 400024, guid: 62b502587771d324486c7eb0f718fd4e, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -723,6 +1378,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+=======
+>>>>>>> c0114c554eb0034e5bfe02b43b651cb6b1186b74
+>>>>>>> 9866a80cbd328aa047ce9907f02d475826034cef
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 62b502587771d324486c7eb0f718fd4e, type: 3}
   m_IsPrefabParent: 0
