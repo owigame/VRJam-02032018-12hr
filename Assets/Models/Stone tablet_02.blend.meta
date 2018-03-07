@@ -1,35 +1,25 @@
 fileFormatVersion: 2
-guid: df9724f31f4a68d4d93d87eaaedca6ba
-timeCreated: 1520017434
+guid: f239b43a4d4d2e543941ef8bc5f9032b
+timeCreated: 1520414460
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: Room
-    100002: //RootNode
-    100004: Table
-    400000: Room
-    400002: //RootNode
-    400004: Table
-    2300000: Room
-    2300002: Table
-    3300000: Room
-    3300002: Table
-    4300000: Table
-    4300002: Room
+    100000: //RootNode
+    400000: //RootNode
+    2100000: Material_001__AlienWriting_jpg
+    2100002: Material_001
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: tablet_body
     7400000: Default Take
     9500000: //RootNode
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material
-    second: {fileID: 2100000, guid: d0aa1f63edcc4d544b16cb016138791a, type: 2}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -67,6 +57,8 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
