@@ -619,6 +619,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ee3dd13df3b2b6b45a17c811da3fbbbc, type: 3}
+      propertyPath: m_Name
+      value: RoomWals
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ee3dd13df3b2b6b45a17c811da3fbbbc, type: 3}
   m_IsPrefabParent: 0
@@ -746,7 +750,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400008, guid: 2a1f829e45c6efa46b0f3b1b5389cae7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.07
+      value: -3.59
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 2a1f829e45c6efa46b0f3b1b5389cae7, type: 3}
       propertyPath: m_LocalPosition.y
