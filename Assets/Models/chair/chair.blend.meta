@@ -13,8 +13,10 @@ ModelImporter:
     400004: Cylinder
     2300000: Cube
     2300002: Cylinder
+    2300004: //RootNode
     3300000: Cube
     3300002: Cylinder
+    3300004: //RootNode
     4300000: Cylinder
     4300002: Cube
     7400000: Default Take
@@ -29,7 +31,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material_001
-    second: {fileID: 2100000, guid: e5e7c2703b9157447a4b27d76b80fbc7, type: 2}
+    second: {fileID: 2100000, guid: 16758f115bd1ff54f879f690179c08d5, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -72,6 +74,8 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
