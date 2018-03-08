@@ -17,6 +17,10 @@ ModelImporter:
     100018: Cube_010
     100020: Cube_011
     100022: Cube_012
+    100024: Button_1
+    100026: Button_2
+    100028: Button_3
+    100030: Button_4
     400000: //RootNode
     400002: Cube
     400004: Cube_001
@@ -29,6 +33,10 @@ ModelImporter:
     400018: Cube_010
     400020: Cube_011
     400022: Cube_012
+    400024: Button_1
+    400026: Button_2
+    400028: Button_3
+    400030: Button_4
     2300000: Cube
     2300002: Cube_001
     2300004: Cube_002
@@ -40,6 +48,10 @@ ModelImporter:
     2300016: Cube_010
     2300018: Cube_011
     2300020: Cube_012
+    2300022: Button_1
+    2300024: Button_2
+    2300026: Button_3
+    2300028: Button_4
     3300000: Cube
     3300002: Cube_001
     3300004: Cube_002
@@ -51,6 +63,10 @@ ModelImporter:
     3300016: Cube_010
     3300018: Cube_011
     3300020: Cube_012
+    3300022: Button_1
+    3300024: Button_2
+    3300026: Button_3
+    3300028: Button_4
     4300000: Cube_005
     4300002: Cube_003
     4300004: Cube_002
@@ -62,6 +78,10 @@ ModelImporter:
     4300016: Cube_011
     4300018: Cube_010
     4300020: Cube_009
+    4300022: Button_4
+    4300024: Button_3
+    4300026: Button_2
+    4300028: Button_1
     7400000: Default Take
     9500000: //RootNode
   externalObjects:
@@ -73,13 +93,43 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Button1
+    second: {fileID: 2100000, guid: ba795d60d1dc04c44ad0082a9e319a1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Button2
+    second: {fileID: 2100000, guid: c6db8870d758dc54a9b5fa609e8a1a19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Button3
+    second: {fileID: 2100000, guid: c93ee6752bc2ef44db628058a5c31d81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Button4
+    second: {fileID: 2100000, guid: 69aa9879baec3694c899744ccedf9779, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Frame
+    second: {fileID: 2100000, guid: ef2e9a6d707ab0241882ac88ab2bb11f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Material
-    second: {fileID: 2100000, guid: 0fb05df81519ce84b882fb99a2567881, type: 2}
+    second: {fileID: 2100000, guid: 9de998ff4f681474098f727f4d22e192, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material_001
     second: {fileID: 2100000, guid: e5e7c2703b9157447a4b27d76b80fbc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Screan
+    second: {fileID: 2100000, guid: a059ef1d929ae4542b15425bd789d95d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -127,6 +177,8 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
