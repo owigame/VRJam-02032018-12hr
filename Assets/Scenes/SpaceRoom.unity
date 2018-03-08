@@ -1054,7 +1054,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1678284984367302, guid: d69adc4fc3adfee4ca4555107f730d0b, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 20362887295887846, guid: d69adc4fc3adfee4ca4555107f730d0b,
         type: 2}
@@ -1064,6 +1064,10 @@ Prefab:
     - target: {fileID: 4710629654376088, guid: d69adc4fc3adfee4ca4555107f730d0b, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678284984367302, guid: d69adc4fc3adfee4ca4555107f730d0b, type: 2}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d69adc4fc3adfee4ca4555107f730d0b, type: 2}
