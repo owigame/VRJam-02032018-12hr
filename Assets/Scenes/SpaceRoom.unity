@@ -587,15 +587,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 27dc5a9aeca8bf7499bd38738789b305, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.9429674
+      value: -0.658
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 27dc5a9aeca8bf7499bd38738789b305, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.26082247
+      value: 0.096
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 27dc5a9aeca8bf7499bd38738789b305, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.2995915
+      value: 1.745
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 27dc5a9aeca8bf7499bd38738789b305, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1302,6 +1302,24 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400010, guid: ee3dd13df3b2b6b45a17c811da3fbbbc, type: 3}
   m_PrefabInternal: {fileID: 1219407165}
+--- !u!1 &1219407167 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100008, guid: ee3dd13df3b2b6b45a17c811da3fbbbc, type: 3}
+  m_PrefabInternal: {fileID: 1219407165}
+--- !u!64 &1219407168
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1219407167}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300006, guid: ee3dd13df3b2b6b45a17c811da3fbbbc, type: 3}
 --- !u!1 &1509589229
 GameObject:
   m_ObjectHideFlags: 0
