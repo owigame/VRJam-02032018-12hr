@@ -52,6 +52,7 @@ ModelImporter:
     2300024: Button_2
     2300026: Button_3
     2300028: Button_4
+    2300030: //RootNode
     3300000: Cube
     3300002: Cube_001
     3300004: Cube_002
@@ -67,6 +68,7 @@ ModelImporter:
     3300024: Button_2
     3300026: Button_3
     3300028: Button_4
+    3300030: //RootNode
     4300000: Cube_005
     4300002: Cube_003
     4300004: Cube_002
