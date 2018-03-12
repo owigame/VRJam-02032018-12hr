@@ -17,6 +17,7 @@ ModelImporter:
     100018: TrigerOnFloor_002
     100020: TrigerOnFloor_003
     100022: TrigerOnFloor_004
+    100024: Capten_Chambers
     400000: Cube
     400002: Floor_001
     400004: //RootNode
@@ -29,6 +30,7 @@ ModelImporter:
     400018: TrigerOnFloor_002
     400020: TrigerOnFloor_003
     400022: TrigerOnFloor_004
+    400024: Capten_Chambers
     2100000: unnamed
     2100002: RoomColer
     2100004: Glass
@@ -47,6 +49,7 @@ ModelImporter:
     2300016: TrigerOnFloor_002
     2300018: TrigerOnFloor_003
     2300020: TrigerOnFloor_004
+    2300022: Capten_Chambers
     3300000: Cube
     3300002: Floor_001
     3300004: Cylinder
@@ -58,6 +61,7 @@ ModelImporter:
     3300016: TrigerOnFloor_002
     3300018: TrigerOnFloor_003
     3300020: TrigerOnFloor_004
+    3300022: Capten_Chambers
     4300000: Floor_001
     4300002: Cube
     4300004: Cylinder
@@ -69,6 +73,7 @@ ModelImporter:
     4300016: TrigerOnFloor_003
     4300018: TrigerOnFloor_002
     4300020: TrigerOnFloor_000
+    4300022: Capten_Chambers
     7400000: Default Take
     9500000: //RootNode
   externalObjects:
