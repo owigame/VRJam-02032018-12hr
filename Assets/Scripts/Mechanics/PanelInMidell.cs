@@ -5,6 +5,10 @@ using UnityEngine;
 public class PanelInMidell : MonoBehaviour {
 
 
+    [Header("OBJ")]
+
+    public Transform ThePanel;
+
     [Header("Positions")]
 
     public Transform startPosition;
@@ -12,7 +16,8 @@ public class PanelInMidell : MonoBehaviour {
     public float lerpSpeed;
 
     // Use this for initialization
-    void Start () {
+    void Start ()
+    {
 		
 	}
 	
@@ -25,7 +30,7 @@ public class PanelInMidell : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
-            transform.position = Vector3.Lerp(startPosition.position, endPosition.position, lerpSpeed);
+            ThePanel.position = Vector3.Lerp(startPosition.position, endPosition.position, lerpSpeed);
         }
     }
 
@@ -33,7 +38,8 @@ public class PanelInMidell : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
-            transform.position = Vector3.Lerp( endPosition.position, startPosition.position, lerpSpeed);
+            //transform.position = Vector3.Lerp(endPosition.position, startPosition.position, lerpSpeed);
+            ThePanel.position = Vector3.Lerp(endPosition.position, startPosition.position, lerpSpeed);
         }
     }
 
