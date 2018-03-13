@@ -4,8 +4,15 @@ using UnityEngine;
 
 public class PanelInMidell : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+
+    [Header("Positions")]
+
+    public Transform startPosition;
+    public Transform endPosition;
+    public float lerpSpeed;
+
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -13,4 +20,21 @@ public class PanelInMidell : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            transform.position = Vector3.Lerp(startPosition.position, endPosition.position, lerpSpeed);
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            transform.position = Vector3.Lerp( endPosition.position, startPosition.position, lerpSpeed);
+        }
+    }
+
 }
