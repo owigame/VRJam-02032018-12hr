@@ -29,10 +29,10 @@ public class ButtonReturnToPosition : MonoBehaviour {
 		if (_retractButton) {
 			_linearMapping.value -= Time.deltaTime * retractSpeed;
 			if (_linearMapping.value > 0.05f) {
-				Debug.Log ("Retracting Button");
+				// Debug.Log ("Retracting Button");
 				transform.position = Vector3.Lerp (_linearDrive.startPosition.position, _linearDrive.endPosition.position, _linearMapping.value);
 			} else {
-				Debug.Log ("Snapping Button");
+				// Debug.Log ("Snapping Button");
 				transform.position = _linearDrive.startPosition.position;
 				_linearMapping.value = 0;
 				_retractButton = false;
