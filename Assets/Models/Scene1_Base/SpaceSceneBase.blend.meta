@@ -18,6 +18,12 @@ ModelImporter:
     100020: TrigerOnFloor_003
     100022: TrigerOnFloor_004
     100024: Capten_Chambers
+    100026: Capten_Chambers_Glass
+    100028: Drown_Door_1
+    100030: Drown_Door_2
+    100032: Drown_Door_3
+    100034: Drown_Door_4
+    100036: TheRoom
     400000: Cube
     400002: Floor_001
     400004: //RootNode
@@ -31,6 +37,12 @@ ModelImporter:
     400020: TrigerOnFloor_003
     400022: TrigerOnFloor_004
     400024: Capten_Chambers
+    400026: Capten_Chambers_Glass
+    400028: Drown_Door_1
+    400030: Drown_Door_2
+    400032: Drown_Door_3
+    400034: Drown_Door_4
+    400036: TheRoom
     2100000: unnamed
     2100002: RoomColer
     2100004: Glass
@@ -38,6 +50,8 @@ ModelImporter:
     2100008: PanelColor
     2100010: Lights
     2100012: LightEmission
+    2100014: Capten_Chamber_inside
+    2100016: Drown_Door_
     2300000: Cube
     2300002: Floor_001
     2300004: Cylinder
@@ -50,6 +64,12 @@ ModelImporter:
     2300018: TrigerOnFloor_003
     2300020: TrigerOnFloor_004
     2300022: Capten_Chambers
+    2300024: Capten_Chambers_Glass
+    2300026: Drown_Door_1
+    2300028: Drown_Door_2
+    2300030: Drown_Door_3
+    2300032: Drown_Door_4
+    2300034: TheRoom
     3300000: Cube
     3300002: Floor_001
     3300004: Cylinder
@@ -62,6 +82,12 @@ ModelImporter:
     3300018: TrigerOnFloor_003
     3300020: TrigerOnFloor_004
     3300022: Capten_Chambers
+    3300024: Capten_Chambers_Glass
+    3300026: Drown_Door_1
+    3300028: Drown_Door_2
+    3300030: Drown_Door_3
+    3300032: Drown_Door_4
+    3300034: TheRoom
     4300000: Floor_001
     4300002: Cube
     4300004: Cylinder
@@ -74,9 +100,25 @@ ModelImporter:
     4300018: TrigerOnFloor_002
     4300020: TrigerOnFloor_000
     4300022: Capten_Chambers
+    4300024: Capten_Chambers_Glass
+    4300026: Drown_Door_4
+    4300028: Drown_Door_3
+    4300030: Drown_Door_2
+    4300032: Drown_Door_1
+    4300034: TheRoom
     7400000: Default Take
     9500000: //RootNode
   externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capten_Chamber_inside
+    second: {fileID: 2100000, guid: a6e8db291fca6fb48b0e2d1764161397, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Drown_Door_
+    second: {fileID: 2100000, guid: 94d6eabf7d5a60a4ab2bc6627655381b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -107,6 +149,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: RoomColer
     second: {fileID: 2100000, guid: 87fc725d0fdb9eb40b229d540ffd9a13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: unnamed
+    second: {fileID: 2100000, guid: a6e8db291fca6fb48b0e2d1764161397, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
