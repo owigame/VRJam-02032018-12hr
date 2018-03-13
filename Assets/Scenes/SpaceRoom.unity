@@ -20,13 +20,13 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
-  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
-  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientSkyColor: {r: 0.44764262, g: 0.553525, b: 0.73333335, a: 1}
+  m_AmbientEquatorColor: {r: 0.8980393, g: 0.9568628, b: 0.9686275, a: 1}
+  m_AmbientGroundColor: {r: 0.4494766, g: 0.41564828, b: 0.39326653, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
+  m_AmbientMode: 1
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 21e506ebb3829514da3f400e382eba35, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.1273174, g: 0.13414761, b: 0.12107885, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -636,6 +636,48 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 27dc5a9aeca8bf7499bd38738789b305, type: 3}
   m_PrefabInternal: {fileID: 599216599}
+--- !u!1001 &617092940
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4852161098662608, guid: b1bb2fa3ada00c243b7497b96bbc77a3, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 102.598694
+      objectReference: {fileID: 0}
+    - target: {fileID: 4852161098662608, guid: b1bb2fa3ada00c243b7497b96bbc77a3, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 123.88655
+      objectReference: {fileID: 0}
+    - target: {fileID: 4852161098662608, guid: b1bb2fa3ada00c243b7497b96bbc77a3, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -39.90297
+      objectReference: {fileID: 0}
+    - target: {fileID: 4852161098662608, guid: b1bb2fa3ada00c243b7497b96bbc77a3, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4852161098662608, guid: b1bb2fa3ada00c243b7497b96bbc77a3, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4852161098662608, guid: b1bb2fa3ada00c243b7497b96bbc77a3, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4852161098662608, guid: b1bb2fa3ada00c243b7497b96bbc77a3, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4852161098662608, guid: b1bb2fa3ada00c243b7497b96bbc77a3, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b1bb2fa3ada00c243b7497b96bbc77a3, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &634524504
 GameObject:
   m_ObjectHideFlags: 0
@@ -805,6 +847,10 @@ Prefab:
     - target: {fileID: 4763999422469054, guid: 9e06a3544790ff843a832cc5202d4776, type: 2}
       propertyPath: m_RootOrder
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1309794545460066, guid: 9e06a3544790ff843a832cc5202d4776, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9e06a3544790ff843a832cc5202d4776, type: 2}
@@ -1374,6 +1420,17 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300006, guid: ee3dd13df3b2b6b45a17c811da3fbbbc, type: 3}
+--- !u!114 &1219407169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1219407167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1937b3b60a744c8428994fe925758e9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1509589229
 GameObject:
   m_ObjectHideFlags: 0
@@ -1658,7 +1715,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1678284984367302, guid: d69adc4fc3adfee4ca4555107f730d0b, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 20362887295887846, guid: d69adc4fc3adfee4ca4555107f730d0b,
         type: 2}

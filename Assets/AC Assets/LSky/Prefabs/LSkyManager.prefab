@@ -290,7 +290,7 @@ MonoBehaviour:
     evaluateTime: 0.066987306
   atmosphereThickness:
     valueType: 0
-    inputValue: 1
+    inputValue: 0
     curve:
       serializedVersion: 2
       m_Curve:
@@ -1382,7 +1382,7 @@ MonoBehaviour:
       m_RotationOrder: 4
     evaluateTime: 0
   CRFoldout: 0
-  atmosphereFoldout: 0
+  atmosphereFoldout: 1
   celestialsFoldout: 0
   colorCorrectionFoldout: 0
   lightingFoldout: 0
