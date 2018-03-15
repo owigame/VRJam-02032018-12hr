@@ -21,6 +21,10 @@ ModelImporter:
     100026: Button_2
     100028: Button_3
     100030: Button_4
+    100032: Buttun_1
+    100034: Buttun_2
+    100036: Buttun_3
+    100038: Buttun_4
     400000: //RootNode
     400002: Cube
     400004: Cube_001
@@ -37,6 +41,10 @@ ModelImporter:
     400026: Button_2
     400028: Button_3
     400030: Button_4
+    400032: Buttun_1
+    400034: Buttun_2
+    400036: Buttun_3
+    400038: Buttun_4
     2300000: Cube
     2300002: Cube_001
     2300004: Cube_002
@@ -52,6 +60,11 @@ ModelImporter:
     2300024: Button_2
     2300026: Button_3
     2300028: Button_4
+    2300030: //RootNode
+    2300032: Buttun_1
+    2300034: Buttun_2
+    2300036: Buttun_3
+    2300038: Buttun_4
     3300000: Cube
     3300002: Cube_001
     3300004: Cube_002
@@ -67,6 +80,11 @@ ModelImporter:
     3300024: Button_2
     3300026: Button_3
     3300028: Button_4
+    3300030: //RootNode
+    3300032: Buttun_1
+    3300034: Buttun_2
+    3300036: Buttun_3
+    3300038: Buttun_4
     4300000: Cube_005
     4300002: Cube_003
     4300004: Cube_002
@@ -82,6 +100,10 @@ ModelImporter:
     4300024: Button_3
     4300026: Button_2
     4300028: Button_1
+    4300030: Buttun_4
+    4300032: Buttun_3
+    4300034: Buttun_2
+    4300036: Buttun_1
     7400000: Default Take
     9500000: //RootNode
   externalObjects:

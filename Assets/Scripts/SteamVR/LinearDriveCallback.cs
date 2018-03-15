@@ -26,9 +26,12 @@ namespace Valve.VR.InteractionSystem {
 		private float mappingChangeRate;
 		private int sampleCount = 0;
 
+		[Header ("Interaction")]
+		public float percentTrigger = 75;
+
 		public UnityEvent onAttachedToHand;
 		public UnityEvent onDetachedFromHand;
-
+		public UnityEvent onTriggered;
 
 		//-------------------------------------------------
 		void Awake () {
@@ -99,6 +102,10 @@ namespace Valve.VR.InteractionSystem {
 			if (repositionGameObject) {
 				transform.position = Vector3.Lerp (startPosition.position, endPosition.position, linearMapping.value);
 			}
+			
+			if (linearMapping.value >= (percentTrigger / 100)) {
+				onTriggered.Invoke ();
+			}
 		}
 
 		//-------------------------------------------------
@@ -122,6 +129,7 @@ namespace Valve.VR.InteractionSystem {
 				if (repositionGameObject) {
 					transform.position = Vector3.Lerp (startPosition.position, endPosition.position, linearMapping.value);
 				}
+
 			}
 		}
 	}
