@@ -10,25 +10,50 @@ ModelImporter:
     100004: Cube_002
     100006: Cylinder
     100008: //RootNode
+    100010: Body
+    100012: Edge_Thingy_1
+    100014: Edge_Thingy_2
+    100016: Engine_1
+    100018: Engine_2
     400000: Cube
     400002: Cube_001
     400004: Cube_002
     400006: Cylinder
     400008: //RootNode
+    400010: Body
+    400012: Edge_Thingy_1
+    400014: Edge_Thingy_2
+    400016: Engine_1
+    400018: Engine_2
     2100000: unnamed
     2100002: Material_001
     2300000: Cube
     2300002: Cube_001
     2300004: Cube_002
     2300006: Cylinder
+    2300008: Body
+    2300010: Edge_Thingy_1
+    2300012: Edge_Thingy_2
+    2300014: Engine_1
+    2300016: Engine_2
     3300000: Cube
     3300002: Cube_001
     3300004: Cube_002
     3300006: Cylinder
+    3300008: Body
+    3300010: Edge_Thingy_1
+    3300012: Edge_Thingy_2
+    3300014: Engine_1
+    3300016: Engine_2
     4300000: Cube_002
     4300002: Cube_001
     4300004: Cube
     4300006: Cylinder
+    4300008: Engine_2
+    4300010: Edge_Thingy_2
+    4300012: Edge_Thingy_1
+    4300014: Body
+    4300016: Engine_1
     7400000: Default Take
     9500000: //RootNode
   externalObjects: {}
@@ -74,8 +99,6 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    preserveHierarchy: 0
-    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
