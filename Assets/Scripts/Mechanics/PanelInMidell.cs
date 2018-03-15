@@ -47,7 +47,7 @@ public class PanelInMidell : MonoBehaviour {
             yield return _wait;
         }
 
-        Debug.Log("Starting move panel");
+     //   Debug.Log("Starting move panel");
         movingPanel = true;
         float lerpProgress = 0;
 
@@ -56,7 +56,7 @@ public class PanelInMidell : MonoBehaviour {
             ThePanel.position = Vector3.Lerp (startPos, endPos, lerpProgress);
             yield return _wait;
         }
-        Debug.Log("Finished move panel");
+    //    Debug.Log("Finished move panel");
     }
 
 }
