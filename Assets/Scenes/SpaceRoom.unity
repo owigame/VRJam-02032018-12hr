@@ -7469,6 +7469,7 @@ GameObject:
   - component: {fileID: 1925953073}
   - component: {fileID: 1925953075}
   - component: {fileID: 1925953074}
+  - component: {fileID: 1925953076}
   m_Layer: 0
   m_Name: Capten_Chambers_Glass
   m_TagString: Untagged
@@ -7483,7 +7484,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1925953072}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1.35, y: -0, z: 0.342}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 9294294}
@@ -7532,6 +7533,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1925953072}
   m_Mesh: {fileID: 4300024, guid: ee3dd13df3b2b6b45a17c811da3fbbbc, type: 3}
+--- !u!114 &1925953076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1925953072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a65dbd39fffd84e97981396d0faf72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BrokenGlass: {fileID: 4323038587879802, guid: 0510ec8e1396d2343bf23cbaee9d744b,
+    type: 2}
+  objectMoveToBrakeSpeed: 25
 --- !u!1001 &1954011109
 Prefab:
   m_ObjectHideFlags: 0
