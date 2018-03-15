@@ -24,6 +24,16 @@ ModelImporter:
     100032: Drown_Door_3
     100034: Drown_Door_4
     100036: TheRoom
+    100038: TheRoom_001
+    100040: TheRoom_002
+    100042: TheRoom_003
+    100044: TheRoom_004
+    100046: TheRoom_005
+    100048: TheRoom_006
+    100050: TheRoom_007
+    100052: TheRoom_008
+    100054: TheRoom_009
+    100056: TheRoom_010
     400000: Cube
     400002: Floor_001
     400004: //RootNode
@@ -43,6 +53,16 @@ ModelImporter:
     400032: Drown_Door_3
     400034: Drown_Door_4
     400036: TheRoom
+    400038: TheRoom_001
+    400040: TheRoom_002
+    400042: TheRoom_003
+    400044: TheRoom_004
+    400046: TheRoom_005
+    400048: TheRoom_006
+    400050: TheRoom_007
+    400052: TheRoom_008
+    400054: TheRoom_009
+    400056: TheRoom_010
     2100000: unnamed
     2100002: RoomColer
     2100004: Glass
@@ -70,6 +90,16 @@ ModelImporter:
     2300030: Drown_Door_3
     2300032: Drown_Door_4
     2300034: TheRoom
+    2300036: TheRoom_001
+    2300038: TheRoom_002
+    2300040: TheRoom_003
+    2300042: TheRoom_004
+    2300044: TheRoom_005
+    2300046: TheRoom_006
+    2300048: TheRoom_007
+    2300050: TheRoom_008
+    2300052: TheRoom_009
+    2300054: TheRoom_010
     3300000: Cube
     3300002: Floor_001
     3300004: Cylinder
@@ -88,6 +118,16 @@ ModelImporter:
     3300030: Drown_Door_3
     3300032: Drown_Door_4
     3300034: TheRoom
+    3300036: TheRoom_001
+    3300038: TheRoom_002
+    3300040: TheRoom_003
+    3300042: TheRoom_004
+    3300044: TheRoom_005
+    3300046: TheRoom_006
+    3300048: TheRoom_007
+    3300050: TheRoom_008
+    3300052: TheRoom_009
+    3300054: TheRoom_010
     4300000: Floor_001
     4300002: Cube
     4300004: Cylinder
@@ -106,6 +146,16 @@ ModelImporter:
     4300030: Drown_Door_2
     4300032: Drown_Door_1
     4300034: TheRoom
+    4300036: TheRoom_010
+    4300038: TheRoom_009
+    4300040: TheRoom_008
+    4300042: TheRoom_007
+    4300044: TheRoom_006
+    4300046: TheRoom_005
+    4300048: TheRoom_004
+    4300050: TheRoom_003
+    4300052: TheRoom_002
+    4300054: TheRoom_001
     7400000: Default Take
     9500000: //RootNode
   externalObjects:

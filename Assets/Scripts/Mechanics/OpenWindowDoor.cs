@@ -21,6 +21,14 @@ public class OpenWindowDoor : MonoBehaviour {
         StartCoroutine(MoveToPosition(TheDoor.position, startPosition.position));
     }
 
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Q))
+        {
+            OpenBigDoor();
+        }
+    }
+
     public void OpenBigDoor()
     {
         StartCoroutine(MoveToPosition(TheDoor.position, endPosition.position));
