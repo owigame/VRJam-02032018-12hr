@@ -25,6 +25,7 @@ ModelImporter:
     100034: Buttun_2
     100036: Buttun_3
     100038: Buttun_4
+    100040: Computer
     400000: //RootNode
     400002: Cube
     400004: Cube_001
@@ -45,6 +46,7 @@ ModelImporter:
     400034: Buttun_2
     400036: Buttun_3
     400038: Buttun_4
+    400040: Computer
     2300000: Cube
     2300002: Cube_001
     2300004: Cube_002
@@ -65,6 +67,7 @@ ModelImporter:
     2300034: Buttun_2
     2300036: Buttun_3
     2300038: Buttun_4
+    2300040: Computer
     3300000: Cube
     3300002: Cube_001
     3300004: Cube_002
@@ -85,6 +88,7 @@ ModelImporter:
     3300034: Buttun_2
     3300036: Buttun_3
     3300038: Buttun_4
+    3300040: Computer
     4300000: Cube_005
     4300002: Cube_003
     4300004: Cube_002
@@ -104,6 +108,7 @@ ModelImporter:
     4300032: Buttun_3
     4300034: Buttun_2
     4300036: Buttun_1
+    4300038: Computer
     7400000: Default Take
     9500000: //RootNode
   externalObjects:
@@ -120,8 +125,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Button1_001
+    second: {fileID: 2100000, guid: a20d739942373e94d86edb2fbec1f3b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Button2
     second: {fileID: 2100000, guid: c6db8870d758dc54a9b5fa609e8a1a19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Button2_001
+    second: {fileID: 2100000, guid: 5b49224fe8ee8714f945adf4a325712d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -130,13 +145,28 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Button3_001
+    second: {fileID: 2100000, guid: 70fb919a526c0054a968db1d66bc180f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Button4
     second: {fileID: 2100000, guid: 69aa9879baec3694c899744ccedf9779, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Button4_001
+    second: {fileID: 2100000, guid: 09cf9acf98c0cbd49bd073f9d503f16b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Frame
     second: {fileID: 2100000, guid: ef2e9a6d707ab0241882ac88ab2bb11f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Frame_001
+    second: {fileID: 2100000, guid: 6a306f0dde31e9b43918ebdf1bbce3ff, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -146,12 +176,17 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material_001
-    second: {fileID: 2100000, guid: e5e7c2703b9157447a4b27d76b80fbc7, type: 2}
+    second: {fileID: 2100000, guid: 660ed079dbd0a854a84a089eb15ab411, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Screan
     second: {fileID: 2100000, guid: a059ef1d929ae4542b15425bd789d95d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Screan_001
+    second: {fileID: 2100000, guid: cbad72079ebe29945b684dd1ed329354, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
